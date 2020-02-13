@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/my_orderNav"-->
+    <!--android:title="Your orders" />-->
+
+    <item
+        android:id="@+id/summry"
+        android:title="  Summary "
+        android:icon="@drawable/summery"/>
+
+    <item
+        android:id="@+id/bank"
+        android:title="  Bank Accounts"
+        android:icon="@drawable/bankacounts"/>
+
+    <item
+        android:id="@+id/cap"
+        android:title="  Expenses Claims"
+        android:icon="@drawable/expenses"/>
+    <item
+        android:id="@+id/cos"
+        android:title="  Customers"
+        android:icon="@drawable/customers"/>
+    <item
+        android:id="@+id/salin"
+        android:title="  Sales Invoices"
+        android:icon="@drawable/saleinvoice"/>
+    <item
+        android:id="@+id/salor"
+        android:title="  Sales Orders"
+        android:icon="@drawable/saleorder"/>
+    <item
+        android:id="@+id/delnot"
+        android:title="  Delivery Notes"
+        android:icon="@drawable/note"/>
+    <item
+        android:id="@+id/purchquot"
+        android:title="  Purchase Quotes"
+        android:icon="@drawable/purchquote"/>
+    <item
+        android:id="@+id/purchord"
+        android:title="  Purchase Orders"
+        android:icon="@drawable/saleorder"/>
+    <item
+        android:id="@+id/godre"
+        android:title="  Goods Recipts"
+        android:icon="@drawable/goods"/>
+    <item
+        android:id="@+id/intr"
+        android:title="  Inventory Transfer"
+        android:icon="@drawable/inventory"/>
+    <item
+        android:id="@+id/inwrof"
+        android:title="  Inventory Write-offs"
+        android:icon="@drawable/iventoryoffs"/>
+    <item
+        android:id="@+id/emp"
+        android:title="  Employees" />
+    <item
+        android:id="@+id/payslp"
+        android:title="  Payslips" />
+    <item
+        android:id="@+id/ass_fix"
+        android:title="  Fixed Assests" />
+    <item
+        android:id="@+id/dep_entr"
+        android:title="  Depreciation Entries" />
+    <item
+        android:id="@+id/amo_ent"
+        android:title="  Amotrization Entries" />
+    <item
+        android:id="@+id/cap_acc"
+        android:title="  Capital  Accounts" />
+    <item
+        android:id="@+id/sp_acc"
+        android:title="  Special Accounts" />
+    <item
+        android:id="@+id/jor_ent"
+        android:title="  Jounal Entries" />
+    <item
+        android:id="@+id/sitt"
+        android:title="  Sittings" />
+
+</menu>

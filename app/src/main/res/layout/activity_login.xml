@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Login"
+    android:background="@drawable/back2"
+    >
+<!--<TextView-->
+<!--    android:id="@+id/maint"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_centerHorizontal="true"-->
+<!--    android:text="FMS"-->
+<!--    android:textSize="60dp"-->
+<!--    android:textColor="#ffffff"-->
+<!--    android:fontFamily="@font/dancing_font"-->
+<!--    android:textStyle="bold"-->
+<!--    android:layout_marginTop="50dp"-->
+<!--    />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="Finance Management System"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:layout_below="@id/maint"-->
+<!--        android:fontFamily="@font/dancing_font"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/insegnia"/>
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/img"
+
+        android:layout_centerVertical="true"
+        android:padding="40dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/textviewshape"
+            android:hint="User Name"
+            android:text="dcs@gmail.com"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+             />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="20dp"
+            android:layout_margin="10dp"
+            android:hint="Password"
+            android:textColor="#ffffff"
+            android:text="123"
+            android:textColorHint="#ffffff"
+            android:background="@drawable/textviewshape"
+            android:inputType="textPassword"
+             />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_margin="10dp"
+            android:textColor="#3F4F2B"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:text="Login" />
+
+
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Financial Management System"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/dancing_font"
+            android:layout_marginBottom="30dp"
+            />
+
+</RelativeLayout>
